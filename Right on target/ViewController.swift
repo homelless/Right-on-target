@@ -15,25 +15,26 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("viewDidLoad")
+        
+        self.number = Int.random(in: 1...50)
+        self.label.text = String(self.number)
+        
         // Do any additional setup after loading the view.
     }
 
     //загаданное число
     var number : Int = 0
     //раунд
-    var round : Int = 0
+    var round : Int = 1
     //сумма очков за раунд
     var points : Int = 0
 
     
     @IBAction func checkNumber() {
-        
-        if self.round == 0 {
-            self.number = Int.random(in: 1...50)
-            self.label.text = String(self.number)
-            self.round = 1
-        }else{
+
             let numSlider = Int(self.slider.value.rounded())
+        
             if numSlider > self.number {
                 self.points += 50 - numSlider + self.number
             }else if numSlider < self.number {
@@ -55,5 +56,5 @@ class ViewController: UIViewController {
             self.label.text = String(self.number)
         }
     }
-}
+
 
