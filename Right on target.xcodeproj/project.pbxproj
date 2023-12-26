@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D03168602B3B676100057464 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = D031685F2B3B676100057464 /* Game.swift */; };
 		D03E4BF72B3339EA00DD26DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E4BF62B3339EA00DD26DF /* AppDelegate.swift */; };
 		D03E4BF92B3339EA00DD26DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E4BF82B3339EA00DD26DF /* SceneDelegate.swift */; };
 		D03E4BFB2B3339EA00DD26DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E4BFA2B3339EA00DD26DF /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D031685F2B3B676100057464 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		D03E4BF32B3339EA00DD26DF /* Right on target.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Right on target.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D03E4BF62B3339EA00DD26DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D03E4BF82B3339EA00DD26DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D031685E2B3B66D200057464 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D031685F2B3B676100057464 /* Game.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D03E4BEA2B3339EA00DD26DF = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		D03E4BF52B3339EA00DD26DF /* Right on target */ = {
 			isa = PBXGroup;
 			children = (
+				D031685E2B3B66D200057464 /* Model */,
 				D03E4BF62B3339EA00DD26DF /* AppDelegate.swift */,
 				D03E4BF82B3339EA00DD26DF /* SceneDelegate.swift */,
 				D03E4BFA2B3339EA00DD26DF /* ViewController.swift */,
@@ -142,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D03E4C0B2B3630A000DD26DF /* SecondViewController.swift in Sources */,
+				D03168602B3B676100057464 /* Game.swift in Sources */,
 				D03E4BFB2B3339EA00DD26DF /* ViewController.swift in Sources */,
 				D03E4BF72B3339EA00DD26DF /* AppDelegate.swift in Sources */,
 				D03E4BF92B3339EA00DD26DF /* SceneDelegate.swift in Sources */,

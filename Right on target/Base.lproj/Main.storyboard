@@ -52,14 +52,6 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b9b-Pw-YfQ">
-                                <rect key="frame" x="747" y="358" width="129" height="35"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="о программе"/>
-                                <connections>
-                                    <action selector="showNextScreen" destination="BYZ-38-t0r" eventType="touchUpInside" id="dkc-tO-4is"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
@@ -70,9 +62,7 @@
                             <constraint firstItem="Cxe-j2-YTJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="QWT-8U-iyY"/>
                             <constraint firstItem="Ntj-f4-VWi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="X9U-DF-8p7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Cxe-j2-YTJ" secondAttribute="trailing" constant="20" id="f0G-zv-dUf"/>
-                            <constraint firstAttribute="trailing" secondItem="b9b-Pw-YfQ" secondAttribute="trailing" constant="20" id="fnt-Ot-GSd"/>
                             <constraint firstItem="Cxe-j2-YTJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="oGg-Iu-Bu0"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="b9b-Pw-YfQ" secondAttribute="bottom" id="vor-S7-jXA"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="NOk-8x-r99"/>
@@ -83,50 +73,17 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="58" y="-2"/>
-        </scene>
-        <!--Second View Controller-->
-        <scene sceneID="C3V-Ry-f6j">
-            <objects>
-                <viewController storyboardIdentifier="SecondViewController" id="7Gv-Mr-oDb" customClass="SecondViewController" customModule="Right_on_target" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="MPV-F3-ePA">
-                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DoU-S3-MNp">
-                                <rect key="frame" x="411.5" y="189.5" width="73.5" height="35"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Назад"/>
-                                <connections>
-                                    <action selector="hideCurrentScene" destination="7Gv-Mr-oDb" eventType="touchUpInside" id="d0m-DZ-1cS"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="kBM-Rx-kNZ"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="DoU-S3-MNp" firstAttribute="centerY" secondItem="MPV-F3-ePA" secondAttribute="centerY" id="fqf-4r-fnt"/>
-                            <constraint firstItem="DoU-S3-MNp" firstAttribute="centerX" secondItem="MPV-F3-ePA" secondAttribute="centerX" id="vBg-IU-CXc"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="fNT-0l-WCn"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cI8-I8-mjy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="806" y="-3"/>
+            <point key="canvasLocation" x="800.89285714285711" y="-2.8985507246376816"/>
         </scene>
     </scenes>
     <resources>
         <image name="01.square.fill" catalog="system" width="128" height="114"/>
         <image name="50.square.fill" catalog="system" width="128" height="114"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemIndigoColor">
-            <color red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemPinkColor">
-            <color red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
