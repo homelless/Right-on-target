@@ -16,13 +16,41 @@ class ViewController: UIViewController {
  
     // MARK: - Жизненный цикл
     
+    override func loadView() {
+        super.loadView()
+        print("loadView ViewController")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         //создаем экземпляр сущности Игра
         game = Game(startValue: 1, endValue: 50, rounds: 5)
         //обновляем данные о текущем значении загаданного числа
         updateLabelWithSecretNumber(newText: String(game.currentSecretValue))
+        
+        print("viewDidLoad ViewController")
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print("viewWillAppear ViewController")
+    }
+
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        print("viewDidAppear ViewController")
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        print("viewWillDisappear ViewController")
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        print("viewDidDisappear ViewController")
+    }
+  
     
     //  MARK: - Взаимодействие View - Model
 
